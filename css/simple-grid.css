@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/**
+*** SIMPLE GRID
+*** (C) ZACH COLE 2016
+**/
+
+
+/* POSITIONING */
+
+.img-resp{
+    width:100% !important;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* ==== GRID SYSTEM ==== */
+
+.container-red {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row-red {
+  position: relative;
+  width: 100%;
+}
+
+.row-red [class^="cl"] {
+  float: left;
+  padding: 10px 10px;
+  min-height: 0.125rem;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;     
+}
+
+.cl-1,
+.cl-2,
+.cl-3,
+.cl-4,
+.cl-5,
+.cl-6,
+.cl-7,
+.cl-8,
+.cl-9,
+.cl-10,
+.cl-11,
+.cl-12 {
+  width: 100%;
+}
+
+.cl-1-sm {
+    width: 8.33%;
+}
+
+.cl-2-sm {
+    width: 16.66%;
+}
+
+.cl-3-sm {
+    width: 25%;
+}
+
+.cl-4-sm {
+    width: 33.33%;
+}
+
+.cl-5-sm {
+    width: 41.66%;
+}
+
+.cl-6-sm {
+    width: 50%;
+}
+
+.cl-7-sm {
+    width: 58.33%;
+}
+
+.cl-8-sm {
+    width: 66.66%;
+}
+
+.cl-9-sm {
+    width: 75%;
+}
+
+.cl-10-sm {
+    width: 83.33%;
+}
+
+.cl-11-sm {
+    width: 91.66%;
+}
+
+.cl-12-sm {
+    width: 100%;
+}
+
+.row-red:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+  .cl-1 {
+    width: 8.33%;
+  }
+
+  .cl-2 {
+    width: 16.66%;
+  }
+
+  .cl-3 {
+    width: 25%;
+  }
+
+  .cl-4 {
+    width: 33.33%;
+height: 473px;
+  }
+
+  .cl-5 {
+    width: 41.66%;
+  }
+
+  .cl-6 {
+    width: 50%;
+  }
+
+  .cl-7 {
+    width: 58.33%;
+  }
+
+  .cl-8 {
+    width: 66.66%;
+  }
+
+  .cl-9 {
+    width: 75%;
+  }
+
+  .cl-10 {
+    width: 83.33%;
+  }
+
+  .cl-11 {
+    width: 91.66%;
+  }
+
+  .cl-12 {
+    width: 100%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+  .container-red {
+    width: 100%;
+  }
+}
+

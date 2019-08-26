@@ -1,0 +1,155 @@
+<link rel="stylesheet" href="css/simple-grid.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/menu_trainer.css">
+<script type="text/javascript" src="js/menu_trainer.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/stylemenu.css">
+
+
+<div class="container-fluid">
+	
+		
+	<div class="col-md nav">
+            
+                <div><a><img src="img-menu/logo.png"></a></div>
+
+                <div class="ropa">
+                    <a href="#" id="show1">Ropa</a>
+                    <img src="img-menu/cerrar.png" id="cerrar">
+                    <div class="menu closed" id="menu">
+                            <a href="#">Playeras</a>
+                            <a href="#">Pants</a>
+                        </div>                    
+                </div>
+
+                <div class="calzado">
+                    <a href="#" id="show2">Calzado</a>
+                    <img src="img-menu/cerrar.png" id="cerrar2">
+                    <div class="menu2 closed" id="menu2">
+                            <a href="#">Sneakers</a>
+                            <a href="#">Running</a>
+                    </div>
+                </div>
+
+                <div class="accesorios">
+                    <a href="#" id="show3">Accesorios</a>
+                    <img src="img-menu/cerrar.png" id="cerrar3">
+                    <div class="menu3 closed" id="menu3">
+                            <a href="#">SmartWatch</a>
+                            <a href="#">Training</a>
+                    </div>
+                </div>
+                
+                <div><a href="#" href="#"><img src="img-menu/avatar.png"></a></div>
+                <div><a href="#" href="#"><img src="img-menu/carrito.png"></a></div>
+               <input type="text" name="password" placeholder="Password">
+        
+    </div> 
+	
+	<div class="row">
+		
+		<div class="col-4">
+			<div class="vertical-menu">
+				<a id="txt-menu" href="#" class="active"><b>Ropa</b></a>
+				<a id="txt-menu" href="#"><b>Mujer</b></a>
+				<a id="txt-menu" href="#">&nbsp;&nbsp;Playeras y Tops</a>
+				<a id="txt-menu" href="#">&nbsp;&nbsp;Mallas</a>
+				<a id="txt-menu" href="#">&nbsp;&nbsp;Shorts</a>
+
+				<a id="txt-menu" href="#"><b>Hombre</b></a>
+				<a id="txt-menu" href="#">&nbsp;&nbsp;Playeras</a>
+				<a id="txt-menu" href="#">&nbsp;&nbsp;Pants y mallas</a>
+			</div>
+		</div>
+		
+		
+			
+			<div class="cont-product col-8 d-flex" >
+				
+				<div class=" cont-img-zoom">
+					<img class="producto" src="img/BT101.png">
+					<p class="title-prod">Nike Sportswear $1,099</p>
+				</div>
+				<div class="cont-img-zoom">
+					<img class="producto" src="img/BT102.png">
+					<p class="title-prod">Playera $900</p>
+				</div>
+				<div class="cont-img-zoom">
+					<img class="producto" src="img/BT103.png">
+					<p class="title-prod">Playera $900</p>
+				</div>
+				
+				<div class="cont-img-zoom">
+					<img class="producto" src="img/BT104.png">
+					<p class="title-prod">Playera $900</p>
+				</div>
+				<div class="cont-img-zoom">
+					<img class="producto" src="img/BT105.png">
+					<p class="title-prod">Playera $900</p>
+				</div>
+				<div class="cont-img-zoom">
+					<img class="producto" src="img/BT106.png">
+					<p class="title-prod">Playera $900</p>
+				</div>
+			</div>
+	
+    </div>
+	
+	<div class="col-12" style="background-color: black">
+	Footer
+	</div>
+</div>
+
+<script>
+        $('#show1').click(function(){
+            $('#menu').removeClass('closed');
+            $('#menu').addClass('open');
+            $('#cerrar').show(); //muestra cerrar
+        });
+</script>
+<script>
+        $('#cerrar').click(function(){
+            $('#menu').removeClass('open');
+            $('#menu').addClass('closed');
+            $('#cerrar').hide(); 
+           
+        });
+</script>
+
+
+
+<script>
+        $('#show2').click(function(){
+            $('#menu2').removeClass('closed');
+            $('#menu2').addClass('open');
+            $('#cerrar2').show(); //muestra cerrar
+        });
+</script>
+<script>
+        $('#cerrar2').click(function(){
+            $('#menu2').removeClass('open');
+            $('#menu2').addClass('closed');
+            $('#cerrar2').hide(); 
+           
+        });
+</script>
+
+
+
+<script>
+        $('#show3').click(function(){
+            $('#menu3').removeClass('closed');
+            $('#menu3').addClass('open');
+            $('#cerrar3').show(); //muestra cerrar
+        });
+</script>
+<script>
+        $('#cerrar3').click(function(){
+            $('#menu3').removeClass('open');
+            $('#menu3').addClass('closed');
+            $('#cerrar3').hide(); 
+
+        });
+</script>
